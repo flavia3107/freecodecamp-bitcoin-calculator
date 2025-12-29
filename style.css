@@ -73,55 +73,9 @@ input[type="number"] {
 	border-radius: 0.5rem;
 }
 
-.logo {
-	display: flex;
-	align-items: center;
-}
-
-.logo > img {
-	height: 35px;
-}
-
-.logo-txt {
-	padding-left: 7px;
-	display: flex;
-	flex-direction: column;
-	color: #fff;
-	align-items: flex-start;
-}
-
-.logo-img {
-	width: 1.5rem;
-	margin-right: 3px;
-}
-
-.logo-txt h1,
-.logo-txt span {
-	margin: 0;
-	padding: 0;
-	line-height: 1;
-	letter-spacing: 4px;
-	color: #fff;
-}
-
-.logo-txt h1 {
-	font-weight: bolder;
-	font-size: 0.85rem;
-}
-
-.logo-txt span {
-	font-weight: lighter;
-	font-size: 0.75rem;
-}
-
-.row {
-	display: flex;
-	align-items: center;
-	padding: 1rem;
-}
-
 a {
-	text-decoration: none;
+	margin: 0.5rem;
+	display: inline-block;
 }
 
 @media (prefers-color-scheme: dark) {
